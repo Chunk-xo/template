@@ -1,5 +1,8 @@
 body {
   background: white;
+  margin: 0;
+  padding: 0;
+  font-family: Helvetica, Arial, Sans-Serif;
 }
 
 ul {
@@ -29,4 +32,26 @@ li a:hover:not(.active) {
 
 .active {
   background-color: #04AA6D;
+}
+
+#featured{
+  padding-top: 50px;
+  padding-bottom: 50px;
+  width: 90%;
+  text-align: center;
+  margin: 0 auto;
+}
+
+.box{
+  width: 30%;
+  height: 170px;
+  background-color:white;
+  margin-left: 30px;
+  margin-bottom: 30px;
+  padding: 0;
+}
+
+.product{
+  padding-bottom: 25px;
+  width: 90%;
 }
