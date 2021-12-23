@@ -14,13 +14,22 @@
         <li><a href="#">Home</a></li>
         <li><a href="#">About</a></li>
         <li><a href="#">Account</a></li>
-        <li style="float: right"><a href="#">Sign In</a></li>
+        <li style="float: right"><button class="sign-in" id="open-login" href="#">Sign In</button></li>
       </ul>
     </section>
+
+    <div id="login-box" class="modal">
+      <!-- Modal content -->
+      <div class="modal-content">
+        <span class="close">&times;</span>
+        <p>Some text in the Modal..</p>
+    </div>
+    </div>
 
     <div class="container">
 
       <section id="welcome">
+        <iframe src="https://embed.lottiefiles.com/animation/53902"></iframe>
         <h1>Store Name</h1>
         <p class="tag">Boycott Amazon, Support UK charities</p>
       </section>
@@ -73,7 +82,7 @@
               <p>blah blah blah blah blah blah blah blah blah</p>
             </div>
             <br><br><br>
-            <button>Add to basket</button>
+            <button class="product-button">Add to basket</button>
           </div>
         </div>
       </section>
