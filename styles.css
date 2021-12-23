@@ -19,7 +19,7 @@ ul {
   margin: 0 auto;
   padding: 0;
   width: 100%;
-  background-color: #333;
+  background-color: #f2f2f2;
   position: fixed;
 }
 
@@ -29,19 +29,19 @@ li {
 
 li a {
   display: block;
-  color: white;
+  color: black;
   text-align: center;
   padding: 14px 16px;
   text-decoration: none;
 }
 
 li a:hover:not(.active) {
-  background-color: #111;
+  color:#960f00;
 }
 
-.active {
-  background-color: #04AA6D;
-}
+/*.active a:hover:not(.active) {
+  color:#960f00;
+}*/
 
 #search{
   width: 100%;
@@ -50,6 +50,8 @@ li a:hover:not(.active) {
 
 .main-search-bar{
   width: 70%;
+  border: 2px solid black;
+  border-radius: 4px;
 }
 
 .section-title{
@@ -68,16 +70,21 @@ li a:hover:not(.active) {
 
 .box{
   width: 30%;
-  height: 200px;
+  height: 400px;
   background-color:white;
   margin-left: 30px;
-  margin-bottom: 200px;
+  margin-bottom: 50px;
   padding: 0;
 }
 
 .product{
-  padding-bottom: 50px;
+  padding-bottom: 30px;
   width: 100%;
+}
+
+.item-info{
+  float: left;
+  padding-left: 20px;
 }
 
 @media only screen and (max-width: 768px) {
@@ -86,7 +93,8 @@ li a:hover:not(.active) {
     width: 80%;
   }
   [class*="box"] {
-    margin-bottom: 300px;
+    margin-bottom: 200px;
+    height: 500px;
   }
 }
 
@@ -96,6 +104,6 @@ li a:hover:not(.active) {
     width: 90%;
   }
   [class*="box"] {
-    margin-bottom: 300px;
+    margin-bottom: 100px;
   }
 }
