@@ -1,5 +1,5 @@
 // Get the modal
-var modal = document.getElementById("open-login");
+var modal = document.getElementById("open-login-box");
 
 // Get the button that opens the modal
 var btn = document.getElementById("myBtn");
