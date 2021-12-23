@@ -48,7 +48,7 @@ li a:hover:not(.active) {
 }*/
 
 .sign-in{
-  background-color: #72bdf5; /* Green */
+  background-color: #72bdf5;
   border: none;
   color: white;
   padding: 10px 28px;
@@ -56,6 +56,7 @@ li a:hover:not(.active) {
   text-decoration: none;
   display: inline-block;
   font-size: 16px;
+  float: right
 }
 
 /*Login Modal*/
